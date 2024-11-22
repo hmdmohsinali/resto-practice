@@ -16,7 +16,7 @@ const corsOptions = {
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   }
-  
+  //commit
 app.use(cors(corsOptions))
 app.use(cookieParser());
 
