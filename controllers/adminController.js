@@ -8,7 +8,7 @@ import Menu from "../models/Menu.js";
 import cloudinary from "../config/cloudinary.js";
 import Reservation from "../models/Reservations.js";
 import formidable from "formidable";
-
+//testing changes
 export const signUp = async (req, res) => {
   const { name, username, password } = req.body;
 
