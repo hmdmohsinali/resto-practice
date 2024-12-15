@@ -11,7 +11,7 @@ dotenv.config();
 const app= express();
 const PORT = process.env.PORT || 4000
 const corsOptions = {
-    origin: ["*", "https://super-admin-resto.vercel.app","http://localhost:5173", "https://resto-super-admin.vercel.app", "https://resto-sub-admins.vercel.app", "https://resto-com-ebon.vercel.app", "https://resto-super-admin-mu.vercel.app"],
+    origin: ["*", "https://super-admin-resto.vercel.app","https://admin-resto-seven.vercel.app","http://localhost:5173", "https://resto-super-admin.vercel.app", "https://resto-sub-admins.vercel.app", "https://resto-com-ebon.vercel.app", "https://resto-super-admin-mu.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
